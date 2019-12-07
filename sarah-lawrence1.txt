@@ -1,0 +1,46 @@
+    1. What is Semantic HTML? using HTML to reinforce the meanin g of the webpage
+    2. What is HTML used for? Give meaning to a webpage
+    3. What is an attribute and where do we put it? Control elements behavior. Place an attribute insde opening tag. 
+    4. What is the h1 tag used for? How many times should I use it on a page? h1 is used as the main heading. Should only be used once.
+    5. Name two tags that have required attributes. input and select
+    6. What do we put in the head of our HTML document? title and possibly paragraph if they go together. 
+    7. What is an id? attribute - performs tasks for element
+    8. What elements can I add an id to? any html element
+    9. How many times can I use the same id on a page? once
+    10. What is a class? a type of attribute
+    11. What elements can I add a class to? added to any HTML
+    12. How many times can I use the same class on a page? once
+    13. How do I get my link to open in a new tab?target="_blank"
+    14. What is the alt attribute used for? alt provides alternative info  for an image if user cannot view it. 
+    15. How do I reference an id? <h1 id="myHeading> 
+    16. What is the difference between a section and a div: div is more generic / section content inside is grouped
+    17. What is CSS used for? styling the HTML
+    18. How to we select an element? Example - every h2 on the page. h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. id used to identify just one element / class indetifies more than one. I would use a class when I have a list or several paragraphs. Id i would use for an h1. 
+    20. How do we select classes in CSS? .example
+    21. How do we select a p element with a single class of “human””? .human
+    22. What is a parent child selector? When would this be useful? match all elements which are child
+    23. How do you select all links within a div with the class of sidebar? a.sidebar{}
+    24. What is a pseudo selector?Special State of an element
+    25. What do we use the change the spacing between lines? use line height property
+    26. What do we use to change the spacing between letters? letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform: lowercase/capitalize
+    28. How do I add a 1px border around my div that is dotted and black? div{ border: 1px dotted black;}
+    29. How do I select everything on the page? *
+    30. How do I write a comment in CSS? /* example */
+    31. How do I find out what file I am in, when I am using the command line? -s
+    32. Using the command line - how do I see a list of files/folders in my current folder?ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm example.html / deletes this file permanently 
+    34. Why should I use version control? remembers history of files
+    35. How often should I commit to github? every time I add a bunch of code
+    36. What is the command we would use to push our repo up to github? git push -u origin master (or sarah-lawrence)
+    37. Walk me through Lambda's git flow. 1. fork 2. add TL as collaborator 3. clone 4. create branch 5. submit pr
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?block elements force a linke break after the bloxk. acquires full width if width not defined. inline cannot have a width or heigth set 
+    2. What happens when an element is positioned absolutely? removed from the normal document flow. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? floating?
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	<div> <p> <header> / <span> <a> / <script>
+    5. In your own words, explain the box model. What is the fix for the box model? a box that consists of margins, padding, borders and content
