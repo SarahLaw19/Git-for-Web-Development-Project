@@ -18,7 +18,7 @@
     18. How to we select an element? Example - every h2 on the page. h2{}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one. id used to identify just one element / class indetifies more than one. I would use a class when I have a list or several paragraphs. Id i would use for an h1. 
     20. How do we select classes in CSS? .example
-    21. How do we select a p element with a single class of “human””? .human
+    21. How do we select a p element with a single class of ï¿½humanï¿½ï¿½? .human
     22. What is a parent child selector? When would this be useful? match all elements which are child
     23. How do you select all links within a div with the class of sidebar? a.sidebar{}
     24. What is a pseudo selector?Special State of an element
